@@ -1,10 +1,31 @@
 {
   "expo": {
-    "scheme": "acme",
+    "name": "Lista-Contatos",
+    "slug": "Lista-Contatos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#292929"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#292929"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "plugins": [
       "expo-router"
-    ],
-    "name": "Lista de Contatos",
-    "slug": "TaskMaster"
+    ]
   }
 }
