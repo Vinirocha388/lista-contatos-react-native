@@ -27,6 +27,8 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 1. **Node.js** (recomendado: versão LTS):  
    [Download do Node.js](https://nodejs.org/)
 
-2. **Expo CLI** (instalado globalmente via npm):  
+2. **Dependências** (instalado globalmente via npm):  
    ```bash
-   npm install -g expo-cli
+   npm install
+
+
